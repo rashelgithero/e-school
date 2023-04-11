@@ -97,6 +97,7 @@
     justify-content: center;
     align-items: center;
     transition: all 0.5s ease-in 0s;
+    
 }
 .card1:hover{
     
@@ -352,6 +353,19 @@ text-align: center;
     .footer ul{
         border-left: 1px #fff solid;
     }
+    body:hover .footer ul{
+        animation: slidein 2s ease-in-out 0s infinite alternate;
+    }
+    @keyframes slidein {
+
+        0%{
+            border-left: 2px greenyellow solid;
+        }
+        100%{
+            border-left: 2px cyan solid;
+        }
+        
+    }
     .footer .border1{
         border: none;
     }
@@ -487,6 +501,19 @@ text-align: center;
     .footer .border1{
         border: none;
     }
+    body:hover .footer ul{
+        animation: slidein 2s ease-in-out 0s infinite alternate;
+    }
+    @keyframes slidein {
+
+        0%{
+            border-left: 2px greenyellow solid;
+        }
+        100%{
+            border-left: 2px cyan solid;
+        }
+        
+    }
 
 }   
 @media (min-width:768px) and (max-width:991.9px) {
@@ -588,6 +615,19 @@ text-align: center;
     .footer ul{
         border-left: 1px #fff solid;
     }
+    body:hover .footer ul{
+        animation: slidein 2s ease-in-out 0s infinite alternate;
+    }
+    @keyframes slidein {
+
+        0%{
+            border-left: 2px greenyellow solid;
+        }
+        100%{
+            border-left: 2px cyan solid;
+        }
+        
+    }
     
     
     
@@ -609,6 +649,19 @@ text-align: center;
     .footer ul{
         border-left: 1px #fff solid;
     }
+    body:hover .footer ul{
+        animation: slidein 3s ease-in-out 0s infinite alternate;
+    }
+    @keyframes slidein {
+
+        0%{
+            border-left: 2px greenyellow solid;
+        }
+        100%{
+            border-left: 2px cyan solid;
+        }
+        
+    }
 }
 @media (min-width:1200px) and (max-width:1399.9px){
     .navbar-collapse{
@@ -626,6 +679,19 @@ text-align: center;
     }
     .footer ul{
         border-left: 1px #fff solid;
+    }
+    body:hover .footer ul{
+        animation: slidein 2s ease-in-out 0s infinite alternate;
+    }
+    @keyframes slidein {
+
+        0%{
+            border-left: 2px greenyellow solid;
+        }
+        100%{
+            border-left: 2px cyan solid;
+        }
+        
     }
 }
 @media (min-width:1400px){
@@ -648,5 +714,18 @@ text-align: center;
     }
     .footer ul{
         border-left: 1px #fff solid;
+    }
+    body:hover .footer ul{
+        animation: slidein 2s ease-in-out 0s infinite alternate;
+    }
+    @keyframes slidein {
+
+        0%{
+            border-left: 2px greenyellow solid;
+        }
+        100%{
+            border-left: 2px cyan solid;
+        }
+        
     }
 }
