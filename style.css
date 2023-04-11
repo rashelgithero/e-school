@@ -285,13 +285,13 @@ text-align: center;
         justify-content: center;
     }
     .card1{
-        width: 200px;
-        height: 225px;
+        width: 180px;
+        height: 215px;
         margin: 15px;
     }
     .card1:hover{
-        width: 195px;
-        height: 220px;
+        width: 175px;
+        height: 210px;
         
     }
     .catagories.col-6 {
