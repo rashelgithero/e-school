@@ -286,13 +286,10 @@ text-align: center;
     }
     .card1{
         width: 180px;
-        height: 215px;
-        margin: 15px;
+    
     }
     .card1:hover{
         width: 175px;
-        height: 210px;
-        
     }
     .catagories.col-6 {
         flex: 0 0 auto;
